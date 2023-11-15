@@ -24,8 +24,8 @@ table = {
 #--------------------------------------------------------------
 
 def bond(x,y):
-    first_element = x
-    second_element = y
+    first_element = x.lower()
+    second_element = y.lower()
     valency_first_element = int(table[first_element][1])
     valency_second_element = int(table[second_element][1])
     type_first_element = check_type(first_element)
