@@ -16,6 +16,6 @@ def calc(a, b, c):
 user_input = input()
 values = user_input.split()
 data = [int(value) for value in values]
-result = calc(data[0], data[1], data[2])
+result = list(calc(data[0], data[1], data[2]))
 
-print(result)
+print(result[0], result[1])
